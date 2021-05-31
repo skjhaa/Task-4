@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conact Us</title>
+    <style>
+        body {
+            background: url('./image/bich.jpg');
+        }
+
+        .he {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Bree Serif', serif;
+            font-size: 50px;
+        }
+
+        .conta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px solid white; */
+            color: white;
+            margin: 150px 200px;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px solid yellow; */
+            background-color: darkcyan;
+            height: 200px;
+            width: 200px;
+            margin-right: 100px;
+        }
+
+        .box img{
+            height: 200px;
+            width: 200px;
+            transition: all 1s ease-in-out;
+        }
+
+        .box img:hover{
+            /* transform: scale(1.5); */
+            transform: rotate(360deg);
+        }
+
+       
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="he">Contact Us Via</h1>
+
+    <div class="conta">
+        <div class="box" id="box1">
+            <a href="https://www.facebook.com/" target="_blank">
+            <img src="image/Facebook.png"></a>
+        </div>
+        <div class="box" id="box2">
+            <a href="https://mail.google.com/" target="_blank">
+            <img src="image/Gmail.png"></a>
+        </div>
+        <div class="box" id="box3">
+            <a href="https://twitter.com/" target="_blank">
+<img src="image/twitter.png"></a>
+        </div>
+        <div class="box" id="box4">
+            <a href="https://www.instagram.com/" target="_blank">
+<img src="image/insta.png"></a>
+        </div>
+    </div>
+    <hr>
+</body>
+
+</html>
