@@ -26,7 +26,6 @@
             border: 2px solid white;
             color: white;
             margin: 150px 200px;
-            margin-left: 430px;
             padding: 75px;
             width: 33%;
             border-radius: 28px;
@@ -46,6 +45,9 @@
         }
 
         .container h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             font-family: 'Bree Serif', serif;
         }
@@ -71,6 +73,40 @@
         .btn:hover {
             background-color: gray;
         }
+
+        /* For Mobile Phone */
+
+        @media (max-width: 1450px) {
+
+            .he {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .form-group {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .form-group input {
+                width: 200px;
+                padding: 1px;
+                border: 2px solid black;
+                margin: 5px auto;
+                font-size: 15px;
+            }
+
+
+
+        }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
 </head>
@@ -78,8 +114,8 @@
 <body>
     <h1 class="he">Book Now</h1>
     <div class="container">
-        <h1>Join It Now</h1>
         <form action="noaction.php">
+            <h1>Join It Now</h1>
             <div class="form-group">
                 <input type="text" name="" placeholder="Enter your Name">
             </div>

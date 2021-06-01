@@ -1,0 +1,122 @@
+
+#navbar{
+    /* border: 2px solid black; */
+    display: block;
+    
+}
+
+#navbar li a{
+    padding: 5px;
+    font-size: 15px;
+}
+
+#navbar::before{
+    height: 25px;
+    width:100%;
+}
+
+.logo{
+    height: 112px;
+    width: 30px;
+   
+}
+
+
+
+
+
+.logo p{
+    
+    font-size: 9px;
+    
+}
+
+/* Home Section */
+#home{
+flex-wrap: wrap;
+    padding:3px 25px;
+    height: 200px;
+   
+}
+
+#home h1{
+    color: rgb(90, 85, 90);
+    font-size: 30px;
+}
+
+#home p{  
+    color: rgb(90, 85, 90);
+    font-size: 15px;
+}
+
+.btn{
+    padding: 3px 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+#home1{
+    display: block;
+    padding:3px 20px;
+    height: 150px;
+   
+}
+
+
+
+#home1 h2{
+    font-size: 20px;
+}
+
+#home1 p{
+    font-size: 10px;
+}
+
+/* show */
+
+.show{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    grid-gap: 1rem;
+}
+
+ .boxx{
+     height: 100px; 
+ }
+
+#boxx2 img{
+    height: 50px;
+    width: 50px;
+}
+
+#boxx3 img{
+    height: 50px;
+    width: 50px;
+}
+
+#boxx6 img{
+    height: 50px;
+    width: 50px;
+}
+
+#boxx7 img{
+    height: 50px;
+    width: 50px;
+}
+
+/* For display */
+
+.dis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   
+}
+#bo1{
+    font-size: 40px;
+}

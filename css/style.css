@@ -3,7 +3,7 @@
 }
 body{
     margin: 0px;
-    background: url(./image/background.png);
+    background: url(../image/background.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
@@ -17,6 +17,7 @@ body{
     box-shadow: 0px 3px grey;
     
 }
+
 
 #navbar ul{
     display: flex;
@@ -69,6 +70,9 @@ body{
 }
 
 
+
+
+
 .logo p{
     color: white;
     font-size: 15px;
@@ -88,6 +92,8 @@ body{
 }
 
 
+
+
 #home h1{
     color:white;
     text-align: center;
@@ -95,12 +101,16 @@ body{
     font-family: 'Bree Serif', serif;
 }
 
+
+
 #home p{
     color:white;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
 }
+
+
 
 .btn{
     padding: 6px 20px;
@@ -113,6 +123,9 @@ body{
     cursor:pointer;
 }
 
+
+
+
 #home1{
     display: flex;
     flex-direction: column;
@@ -120,8 +133,9 @@ body{
     height: 550px;
     justify-content: center;
     align-items: center;
-    margin-top: -270px;
+    /* margin-top: -270px; */
 }
+
 
 
 #home1 h2{
@@ -148,6 +162,9 @@ body{
     right: 4px;
     bottom: 100px;
 }
+
+
+
 
 .btn1{
     /* border: 2px solid black; */
@@ -193,8 +210,10 @@ body{
     align-items: center;
     box-shadow: 0px 3px grey;
     margin-bottom: 50px;
-    
 }
+
+
+
 .show p{
     place-items: center center;
 }
@@ -211,9 +230,11 @@ body{
     justify-content: center;
     align-items: center; 
     width: 380px;
-    margin-left: 35px;
+    /* margin-left: 35px; */
     font-family: 'Bree Serif', serif;
 }
+
+
 #boxx2{
     border-radius: 125px;
     display: flex;
@@ -221,6 +242,8 @@ body{
     justify-content: center;
     align-items: center; 
 }
+
+
 
 #boxx3{
     border-radius: 125px;
@@ -240,6 +263,9 @@ body{
     font-family: 'Bree Serif', serif;
 }
 
+
+
+
 #boxx5{
     display: flex;
     flex-direction: column;
@@ -250,6 +276,8 @@ body{
     font-family: 'Bree Serif', serif;
 }
 
+
+
 #boxx6{
     border-radius: 125px;
     display: flex;
@@ -257,6 +285,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+
 #boxx7{
     border-radius: 125px;
     background-color: rgb(7, 179, 247);
@@ -265,6 +296,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+
 
 #boxx8{
     display: flex;
@@ -276,10 +310,14 @@ body{
     font-family: 'Bree Serif', serif;
 }
 
+
+
 #boxx2 img{
     height: 216px;
     width: 230px;
 }
+
+
 
 #boxx3 img{
     height: 216px;
