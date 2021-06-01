@@ -35,21 +35,24 @@
 #home{
 flex-wrap: wrap;
     padding:3px 25px;
-    height: 200px;
+    height: 400px;
    
 }
 
 #home h1{
-    color: rgb(90, 85, 90);
+    color: white;
     font-size: 30px;
 }
 
 #home p{  
-    color: rgb(90, 85, 90);
+    color: white;
     font-size: 15px;
 }
 
 .btn{
+    display: flex;
+     justify-content: center;
+    align-items: center;
     padding: 3px 10px;
     font-size: 15px;
 }
@@ -61,7 +64,7 @@ flex-wrap: wrap;
 #home1{
     display: block;
     padding:3px 20px;
-    height: 150px;
+    height: 300px;
    
 }
 
